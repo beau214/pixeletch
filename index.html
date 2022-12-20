@@ -5,21 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
-    <title>Magic the Gathering</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <title>Pixel Etch</title>
     
 </head>
 <body>
-    <div id="selection">
-        <label for="size">Grid Size:</label>
-        <input type="range" id="size" value="16" min="4" max="100"> 
-        <p id="gridSize"></p>
-        <input type="color" id="colorPicker">
-    </div>
-    <button id="makeGrid">Etch Mode</button>
-    <button id="pixelMode">Pixel Mode</button>
+    <h1>Etch-A-Sketch and Pixel Maker</h1>
     <div id="sketch">
         <div id="container">
 
+        </div>
+    </div>
+    <div id="selection">
+        <div id="style">
+            <label for="size">Grid Size:</label>
+            <input type="range" id="size" value="16" min="4" max="50"> 
+            <p id="gridSize"></p>
+            <label for="colorPicker">Color:</label>
+            <input type="color" id="colorPicker">
+        </div>
+        <div id="buttons">
+            <button id="etchMode">Etch Mode</button>
+            <button id="pixelMode">Pixel Mode</button>
+            <button id="generate">Generate New Board</button>
         </div>
     </div>
     <script src="scripts.js"></script>
