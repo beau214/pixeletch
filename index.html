@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Magic the Gathering</title>
+    
+</head>
+<body>
+    <div id="selection">
+        <label for="size">Grid Size:</label>
+        <input type="range" id="size" value="16" min="4" max="100"> 
+        <p id="gridSize"></p>
+        <input type="color" id="colorPicker">
+    </div>
+    <button id="makeGrid">Etch Mode</button>
+    <button id="pixelMode">Pixel Mode</button>
+    <div id="sketch">
+        <div id="container">
+
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,1 +1,1 @@
-# pixeletch
+# magic
